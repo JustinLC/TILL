@@ -1,2 +1,2 @@
 # TILL
-A POS operating system designed for mobile ordering in restaurants.
+A POS application designed for mobile ordering in restaurants.
