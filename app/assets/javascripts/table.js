@@ -24,7 +24,6 @@ $(document).ready(function(){
 			 content = new Date(content)
 			 content.addMinutes(200).toISOString();
 
-			 debugger;
 			 var currentTime = new Date();
 
 			 var now = moment(currentTime).format("DD/MM/YYYY HH:mm:ss"); //"04/09/2013 15:00:00";
@@ -42,7 +41,6 @@ $(document).ready(function(){
 			 console.log(s);
 
 			 // get parents
-			 debugger;
 			 $(element).parent().find('td:nth-child(5)').text(s);
 
 			 // get child TD to diplay current waiting time
